@@ -5,8 +5,8 @@ function addElementToBeginningOfArray(array, element) {
 //  var element = 'foo'
 //  var newArray = array.unshift(element);
 //  const newArray = [element, ...array]
-  var newArray = array.unshift(element)
-  //var newArray
+//  var newArray = array.unshift(element)
+    var newArray = [...array, element]
   return newArray
 }
 
